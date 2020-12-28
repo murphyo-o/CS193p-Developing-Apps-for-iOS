@@ -5,7 +5,7 @@
 
 ### Lectures
 | _Lecture_ | _Contents_ | _Videos_ | _Others_ |
-| :-: | :-: | :-: | :-: | 
+| :-- | :-- | :-- | :-- | 
 | Lecture 1 | Course Logistics and Intro to SwiftUI | [▶️](https://youtu.be/jbtqIBpUG7g) | [Slides](https://github.com/weitieda/cs193p-2020-swiftui/blob/master/documents/Slides/l1.pdf) |
 | Lecture 2 | MVVM and the Swift Type System | * [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> * [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br> * [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)<br> *[Generics](https://youtu.be/4GjXq2Sr55Q?t=1730)<br> * [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971) | [Slides](https://github.com/weitieda/cs193p-2020-swiftui/blob/master/documents/Slides/l2.pdf)<br> [Reading 1](https://github.com/weitieda/cs193p-2020-swiftui/blob/master/documents/Readings/r1.pdf)<br> [Assignment 1](https://github.com/weitieda/cs193p-2020-swiftui/blob/master/documents/Assignments/a1.pdf) |
 | Lecture 3 | Reactive UI Protocols Layout | * [Protocols](https://youtu.be/SIYdYpPXil4?t=2065)<br> * [Protocols and Generics](https://youtu.be/SIYdYpPXil4?t=2694)<br> * [Layout](https://youtu.be/SIYdYpPXil4?t=3176)<br> * [GeometryReader](https://youtu.be/SIYdYpPXil4?t=4207) | [Slides](https://github.com/weitieda/cs193p-2020-swiftui/blob/master/documents/Slides/l3.pdf) |
