@@ -7,7 +7,6 @@
 | _Lecture_ | _Contents_ | _Videos_ | _Others_ |
 | :-- | :-- | :-- | :-- | 
 | Lecture 1 | Course Logistics and Intro to SwiftUI | * [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
-
 | Lecture 2 | MVVM and the Swift Type System | * [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> 
 * [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br>  
 * [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)<br> 
@@ -15,24 +14,20 @@
 * [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br> 
 [Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)<br> 
 [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf) |
-
 | Lecture 3 | Reactive UI Protocols Layout | * [Protocols](https://youtu.be/SIYdYpPXil4?t=2065)<br> 
 * [Protocols and Generics](https://youtu.be/SIYdYpPXil4?t=2694)<br> 
 * [Layout](https://youtu.be/SIYdYpPXil4?t=3176)<br> 
 * [GeometryReader](https://youtu.be/SIYdYpPXil4?t=4207) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf) |
-
 | Lecture 4 | Grid enum Optionals | * [@esacping](https://www.youtube.com/watch?v=eHEeWzFP6O4&feature=youtu.be&t=515)<br> 
 * [enum](https://youtu.be/eHEeWzFP6O4?t=1973)<br> 
 * [Optional](https://youtu.be/eHEeWzFP6O4?t=2453)<br> 
 * [Equatable](https://youtu.be/eHEeWzFP6O4?t=3808) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l4.pdf)<br> 
 [Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r2_0.pdf)<br> 
 [Assignment 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a2_0.pdf)  |
-
 | Lecture 5 | ViewBuilder Shape ViewModifier | * [private(set)](https://youtu.be/oDKDGCRdSHc?t=282)<br> 
 * [@ViewBuilder](https://youtu.be/oDKDGCRdSHc?t=725)<br> 
 * [Shape](https://youtu.be/oDKDGCRdSHc?t=1226)<br> 
 * [ViewModifier](https://youtu.be/oDKDGCRdSHc?t=2555) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_5.pdf) |
-
 | Lecture 6 | Animation | * [Property Observer](https://youtu.be/3krC2c56ceQ?t=43)<br> 
 * [@State](https://youtu.be/3krC2c56ceQ?t=119)<br> 
 * [Implicit("automatic") Animation](https://youtu.be/3krC2c56ceQ?t=716)<br> 
@@ -42,12 +37,10 @@
 * [AnimatableModifier](https://youtu.be/3krC2c56ceQ?t=3856) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_6.pdf)<br> 
 [Reading 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_3.pdf)<br> 
 [Assignment 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_3.pdf) |
-
 | Lecture 7 | Multithreading EmojiArt | * [Multithreading](https://youtu.be/tmx-OwkBWxA?t=378)<br> 
 * [Threads & Queues](https://youtu.be/tmx-OwkBWxA?t=474)<br> 
 * [GCD](https://youtu.be/tmx-OwkBWxA?t=716)<br> 
 * [fileprivate](https://youtu.be/tmx-OwkBWxA?t=2822) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_7_0.pdf) |
-
 | Lecture 8 | Gestures JSON | * [UserDefaults](https://youtu.be/mz-rNLWJ0bk?t=175)<br> 
 * [Gestures](https://youtu.be/mz-rNLWJ0bk?t=526)<br> 
 * [Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=694)<br>  
@@ -56,7 +49,6 @@
 * [inout gesture state](https://youtu.be/mz-rNLWJ0bk?t=3906) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_8.pdf)<br>
 [Assignment 4](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a4_0.pdf)<br>
 [Assignment 5](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_5.pdf) |
-
 | Lecture 9 | Data Flow | * [Property Wrappers](https://youtu.be/0i152oA3T3s?t=60)<br> 
 * [@State](https://youtu.be/0i152oA3T3s?t=376)<br> 
 * [@ObservedObject](https://youtu.be/0i152oA3T3s?t=443)<br> 
@@ -67,7 +59,6 @@
 * [.sink{}/AnyCancellable](https://youtu.be/0i152oA3T3s?t=2212)<br> 
 * [.onReceive{}](https://youtu.be/0i152oA3T3s?t=2570)<br> 
 * [Publisher + URLSession(dataTaskPublisher)](https://youtu.be/0i152oA3T3s?t=2698) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l9_0.pdf) |
-
 | Lecture 10 | Modal Presentation and Navigation | -   [Initialize @State var in initializer](https://youtu.be/CKexGQuIO7E?t=213)<br> 
 -   [Share viewmodel via @EnviromentObject](https://youtu.be/CKexGQuIO7E?t=1011)<br> 
 -   [Form](https://youtu.be/CKexGQuIO7E?t=1648)<br> 
@@ -83,7 +74,6 @@
 -   [Set environment](https://youtu.be/CKexGQuIO7E?t=5663)<br> 
 -   [.zIndex()](https://youtu.be/CKexGQuIO7E?t=6102)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l10.pdf)<br> 
 [Assignment 6](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a6.pdf) |
-
 | Lecture 11 | Enroute Picker 
 |-   [Init a @Binding var(using \_var)](https://youtu.be/fCfC6m7XUew?t=1558)<br>
 -   [Init @State with wrappedValue](https://youtu.be/fCfC6m7XUew?t=1770)<br>
@@ -91,7 +81,6 @@
 -   [Picker in Form](https://youtu.be/fCfC6m7XUew?t=2155)<br>
 -   [Picker and .tag()](https://youtu.be/fCfC6m7XUew?t=2680)<br>
 -   [Toggle in Form](https://youtu.be/fCfC6m7XUew?t=2904)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l11.pdf) |
-
 | Lecture 12 | Core Data | - [Core Data Features](https://youtu.be/yOhyOpXvaec?t=265)<br>
 -   [SwiftUI Integration](https://youtu.be/yOhyOpXvaec?t=304)<br>
 -   [Read/Write data](https://youtu.be/yOhyOpXvaec?t=737)<br>
@@ -107,7 +96,6 @@
 -   [TRUEPREDICATE](https://youtu.be/yOhyOpXvaec?t=4884)<br>
 -   [Crash Error: Context in environment is not connected to a persistent store coordinator](https://youtu.be/yOhyOpXvaec?t=5160)<br>
 -   [Build a programmatic NSPredicate](https://youtu.be/yOhyOpXvaec?t=5406)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l12.pdf) |
-
 | Lecture 13 | Persistence |-   [Persistence Overview](https://youtu.be/fTNPRhGGP-0?t=112)<br>
 -   [Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=332)<br>
 -   [Create a record in Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=840)<br>
@@ -115,7 +103,6 @@
 -   [File System](https://youtu.be/fTNPRhGGP-0?t=1319)<br>
 -   [Sandbox](https://youtu.be/fTNPRhGGP-0?t=1452)<br>
 -   [File Manager](https://youtu.be/fTNPRhGGP-0?t=1610)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l13.pdf) |
-
 | Lecture 14 | UIKit Integration | [Video](https://youtu.be/GRX5Dha_Clw)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l14.pdf) |
 <br>
 
