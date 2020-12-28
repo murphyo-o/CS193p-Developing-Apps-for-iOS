@@ -3,7 +3,7 @@
 > [Stanford's CS193p course - Developing Applications for iOS](https://cs193p.sites.stanford.edu/), explains the fundamentals of how to build applications for iPhone and iPad using SwiftUI. Here's homework assignments of this course.
 <br>
 
-### Catalog
+## Catalog
 | __Lecture__ | __Contents__ | __Videos__ | __Others__ |
 | :-- | :-- | :-- | :-- | 
 | Lecture 1 | __Course Logistics and Intro to SwiftUI__ | - [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
@@ -22,23 +22,23 @@
 | Lecture 14 | __UIKit Integration__ | [Video](https://youtu.be/GRX5Dha_Clw)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l14.pdf) |
 <br>
 
-### Reading Memos
+## Reading Memos
 
-##### Lecture 6
-__Error Handling__:
+#### Lecture 6
+_Error Handling_:
 <br>
 
-### Completion Status
+## Completion Status
 | __TYPE__ | __NUMBER__ | __COMPLETION__ |
 | :-: | :-: | :-: |
 | Memorize | 5/14 | 36% |
 | Final Project | 0/1 | 0% |
 <br>
 
-### Memorize Game Preview
+## Memorize Game Preview
 
 ##### Assignment 2:  More Memorize 
-__Tasks__:
+_Tasks_:
 * Grid. - to create a grid layout yourself.
 * Shuffle the cards.
 * Support at least 6 themes in game.
@@ -47,5 +47,5 @@ __Tasks__:
 
 
 ##### Assignment 3: Set
-__Tasks__:
+_Tasks_:
 
