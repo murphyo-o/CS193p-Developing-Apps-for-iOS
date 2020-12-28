@@ -4,8 +4,8 @@
 <br>
 
 ### Catalog
-| _Lecture_ | _Contents_ | _Videos_ | _Others_ |
-| :-- | :-- | :-- | :-- | 
+| __Lecture__ | __Contents__ | __Videos__ | __Others__ |
+| :-- | :__--__ | :-- | :-- | 
 | Lecture 1 | Course Logistics and Intro to SwiftUI | * [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
 | Lecture 2 | MVVM and the Swift Type System | * [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> * [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br>  * [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)<br> *[Generics](https://youtu.be/4GjXq2Sr55Q?t=1730)<br> * [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br> [Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)<br> [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf) |
 | Lecture 3 | Reactive UI Protocols Layout | * [Protocols](https://youtu.be/SIYdYpPXil4?t=2065)<br> * [Protocols and Generics](https://youtu.be/SIYdYpPXil4?t=2694)<br> * [Layout](https://youtu.be/SIYdYpPXil4?t=3176)<br> * [GeometryReader](https://youtu.be/SIYdYpPXil4?t=4207) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf) |
@@ -29,7 +29,7 @@ _Error Handling_:
 <br>
 
 ### Completion Status
-| _TYPE_ | _NUMBER_ | _COMPLETION_ |
+| __TYPE__ | __NUMBER__ | __COMPLETION__ |
 | :-: | :-: | :-: |
 | Memorize | 5/14 | 36% |
 | Final Project | 0/1 | 0% |
