@@ -6,8 +6,7 @@
 ### Catalog
 | _Lecture_ | _Contents_ | _Videos_ | _Others_ |
 | :-- | :-- | :-- | :-- | 
-| Lecture 1 | Course Logistics and Intro to SwiftUI 
-| * [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
+| Lecture 1 | Course Logistics and Intro to SwiftUI | * [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
 
 | Lecture 2 | MVVM and the Swift Type System | * [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> 
 * [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br>  
