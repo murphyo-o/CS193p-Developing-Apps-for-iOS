@@ -7,7 +7,7 @@
 | __Lecture__ | __Contents__ | __Videos__ | __Others__ |
 | :-- | :-- | :-- | :-- | 
 | Lecture 1 | __Course Logistics and Intro to SwiftUI__ | - [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
-| Lecture 2 | __MVVM and the Swift Type System__ | - [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> - [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br>  - [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)<br> -[Generics](https://youtu.be/4GjXq2Sr55Q?t=1730)<br> - [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br> [Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)<br> [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf) |
+| Lecture 2 | __MVVM and the Swift Type System__ | - [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> - [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br>  - [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)<br> - [Generics](https://youtu.be/4GjXq2Sr55Q?t=1730)<br> - [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br> [Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)<br> [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf) |
 | Lecture 3 | __Reactive UI Protocols Layout__ | - [Protocols](https://youtu.be/SIYdYpPXil4?t=2065)<br> - [Protocols and Generics](https://youtu.be/SIYdYpPXil4?t=2694)<br> - [Layout](https://youtu.be/SIYdYpPXil4?t=3176)<br> - [GeometryReader](https://youtu.be/SIYdYpPXil4?t=4207) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf) |
 | Lecture 4 | __Grid enum Optionals__ | - [@esacping](https://www.youtube.com/watch?v=eHEeWzFP6O4&feature=youtu.be&t=515)<br> - [enum](https://youtu.be/eHEeWzFP6O4?t=1973)<br> - [Optional](https://youtu.be/eHEeWzFP6O4?t=2453)<br> - [Equatable](https://youtu.be/eHEeWzFP6O4?t=3808) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l4.pdf)<br> [Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r2_0.pdf)<br> [Assignment 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a2_0.pdf)  |
 | Lecture 5 | __ViewBuilder Shape ViewModifier__ | - [private(set)](https://youtu.be/oDKDGCRdSHc?t=282)<br> - [@ViewBuilder](https://youtu.be/oDKDGCRdSHc?t=725)<br> - [Shape](https://youtu.be/oDKDGCRdSHc?t=1226)<br> - [ViewModifier](https://youtu.be/oDKDGCRdSHc?t=2555) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_5.pdf) |
@@ -22,30 +22,10 @@
 | Lecture 14 | __UIKit Integration__ | [Video](https://youtu.be/GRX5Dha_Clw)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l14.pdf) |
 <br>
 
-## Reading Memos
-
-#### Lecture 6
-_Error Handling_:
-<br>
-
 ## Completion Status
 | __TYPE__ | __NUMBER__ | __COMPLETION__ |
 | :-: | :-: | :-: |
-| Memorize | 5/14 | 36% |
+| Memorize Game | 5/14 (Assignment 1-2) | 36% |
+| Set Game | 0/1 (Assignment 3) | 0% |
 | Final Project | 0/1 | 0% |
 <br>
-
-## Memorize Game Preview
-
-##### Assignment 2:  More Memorize 
-_Tasks_:
-* Grid. - to create a grid layout yourself.
-* Shuffle the cards.
-* Support at least 6 themes in game.
-* Game rules: gain 2 points for every match and penalizing 1 point for mistake. Count score.
-* Portrait and landscape layout.
-
-
-##### Assignment 3: Set
-_Tasks_:
-
