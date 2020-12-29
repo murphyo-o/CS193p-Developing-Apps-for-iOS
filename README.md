@@ -3,6 +3,13 @@
 > [Stanford's CS193p course - Developing Applications for iOS](https://cs193p.sites.stanford.edu/), explains the fundamentals of how to build applications for iPhone and iPad using SwiftUI. Here's homework assignments of this course.
 <br>
 
+## Completion Status
+| __TYPE__ | __LECTURES__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
+| :-: | :-: | :-: | :-- | :-: |
+| __Memorize Game__ | Lecture 1-6 | 50% | - Shuffle the cards.<br>- Arrange the cards in a grid view.<br> | |
+| __Set Game__ | | 0% | | |
+<br>
+
 ## Catalog
 | __Lecture__ | __Contents__ | __Videos__ | __Others__ |
 | :-- | :-- | :-- | :-- | 
@@ -20,12 +27,4 @@
 | Lecture 12 | __Core Data__ | - [Core Data Features](https://youtu.be/yOhyOpXvaec?t=265)<br>-   [SwiftUI Integration](https://youtu.be/yOhyOpXvaec?t=304)<br>-   [Read/Write data](https://youtu.be/yOhyOpXvaec?t=737)<br>-   [@FetchRequest](https://youtu.be/yOhyOpXvaec?t=1009)<br>-   [Build Objects Graph in Core Data](https://youtu.be/yOhyOpXvaec?t=1610)<br>-   [Fetch/Create Object](https://youtu.be/yOhyOpXvaec?t=2361)<br>-   [NSPredicate](https://youtu.be/yOhyOpXvaec?t=2442)<br>-   [NSSortDescriptor](https://youtu.be/yOhyOpXvaec?t=2521)<br>-   [Deal with NSSet of one to many relationship](https://youtu.be/yOhyOpXvaec?t=3255)<br>-   [Deal with non-optional value](https://youtu.be/yOhyOpXvaec?t=3499)<br>-   [@FetchRequest demo](https://youtu.be/yOhyOpXvaec?t=3762)<br>-   [Init @FetchRequest](https://youtu.be/yOhyOpXvaec?t=3926)<br>-   [TRUEPREDICATE](https://youtu.be/yOhyOpXvaec?t=4884)<br>-   [Crash Error: Context in environment is not connected to a persistent store coordinator](https://youtu.be/yOhyOpXvaec?t=5160)<br>-   [Build a programmatic NSPredicate](https://youtu.be/yOhyOpXvaec?t=5406)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l12.pdf) |
 | Lecture 13 | __Persistence__ |-   [Persistence Overview](https://youtu.be/fTNPRhGGP-0?t=112)<br>-   [Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=332)<br>-   [Create a record in Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=840)<br>-   [Query for records](https://youtu.be/fTNPRhGGP-0?t=1173)<br>-   [File System](https://youtu.be/fTNPRhGGP-0?t=1319)<br>-   [Sandbox](https://youtu.be/fTNPRhGGP-0?t=1452)<br>-   [File Manager](https://youtu.be/fTNPRhGGP-0?t=1610)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l13.pdf) |
 | Lecture 14 | __UIKit Integration__ | [Video](https://youtu.be/GRX5Dha_Clw)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l14.pdf) |
-<br>
-
-## Completion Status
-| __TYPE__ | __NUMBER__ | __COMPLETION__ |
-| :-: | :-: | :-: |
-| Memorize Game | 5/14 (Assignment 1-2) | 36% |
-| Set Game | 0/1 (Assignment 3) | 0% |
-| Final Project | 0/1 | 0% |
 <br>
