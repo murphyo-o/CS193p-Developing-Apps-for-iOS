@@ -5,8 +5,8 @@
 
 ## Completion Status
 | __TYPE__ | __LECTURES__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
-| :-: | :-: | :-: | :-- | :-: |
-| __Memorize Game__ | Lecture 1-6 | 50% | - Shuffle the cards.<br>- Arrange the cards in a grid view.<br> | |
+|  :-- | :-- | :-- | :-- | :-- | 
+| __Memorize Game__ | 1-6 | 80% | - Shuffle the cards.<br>- Arrange the cards in a grid view.<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards. | |
 | __Set Game__ | | 0% | | |
 <br>
 
