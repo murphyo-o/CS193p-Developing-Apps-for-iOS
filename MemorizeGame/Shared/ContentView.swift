@@ -11,7 +11,7 @@ struct ContentView: View {
     @ObservedObject var viewModel = EmojiViewModel()
     
     var body: some View {
-        VStack {
+        let extractedExpr = VStack {
             Grid(viewModel.cards) { card in
                 CardView(card: card)
                     .padding(3)
@@ -27,6 +27,7 @@ struct ContentView: View {
                 Text("New Game")
             }
         }
+        extractedExpr
     }
 }
 
@@ -51,7 +52,7 @@ struct CardView: View {
     
     private func startBonusTimeAnimation() {
         animateBonusRemaining = card.bonusRemaining
-        withAnimation(.linear(duration: card.bonusRemaining)) {
+        withAnimation(.linear(duration: card.bonusTimeRemaining)) {
             animateBonusRemaining = 0
         }
     }

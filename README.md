@@ -5,8 +5,8 @@
 
 ## Completion Status
 | __TYPE__ | __LECTURES__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
-|  :-- | :-- | :-- | :-- | :-- | 
-| __Memorize Game__ | 1-6 | 80% | - Shuffle the cards.<br>- Arrange the cards in a grid view.<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards. | |
+|  :-: | :-: | :-: | :-: | :-: | 
+| __Memorize Game__ | 1-6 | 80% | - Shuffle the cards.☑️<br>- Arrange the cards in a grid view.☑️<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards.☑️ | |
 | __Set Game__ | | 0% | | |
 <br>
 
@@ -28,3 +28,10 @@
 | Lecture 13 | __Persistence__ |-   [Persistence Overview](https://youtu.be/fTNPRhGGP-0?t=112)<br>-   [Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=332)<br>-   [Create a record in Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=840)<br>-   [Query for records](https://youtu.be/fTNPRhGGP-0?t=1173)<br>-   [File System](https://youtu.be/fTNPRhGGP-0?t=1319)<br>-   [Sandbox](https://youtu.be/fTNPRhGGP-0?t=1452)<br>-   [File Manager](https://youtu.be/fTNPRhGGP-0?t=1610)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l13.pdf) |
 | Lecture 14 | __UIKit Integration__ | [Video](https://youtu.be/GRX5Dha_Clw)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l14.pdf) |
 <br>
+
+
+## Memos
+
+- `didSet` and `willSet`
+
+    `didSet`  to execute code when a property has just been set.  `willSet`  to execute code before a property has been set.

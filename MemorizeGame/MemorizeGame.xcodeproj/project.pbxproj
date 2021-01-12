@@ -27,6 +27,10 @@
 		18B8924E257A7F8500D0763B /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8924C257A7F8500D0763B /* Array+Identifiable.swift */; };
 		18B89256257CAF9200D0763B /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B89255257CAF9200D0763B /* Array+Only.swift */; };
 		18B89257257CAF9200D0763B /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B89255257CAF9200D0763B /* Array+Only.swift */; };
+		18D61BA725AD763400EAAD4D /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D61BA625AD763400EAAD4D /* HomeList.swift */; };
+		18D61BA825AD763400EAAD4D /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D61BA625AD763400EAAD4D /* HomeList.swift */; };
+		18D61BB325AD795C00EAAD4D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D61BB225AD795C00EAAD4D /* Theme.swift */; };
+		18D61BB425AD795C00EAAD4D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D61BB225AD795C00EAAD4D /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,8 @@
 		18B8923F257A1C0E00D0763B /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		18B8924C257A7F8500D0763B /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		18B89255257CAF9200D0763B /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		18D61BA625AD763400EAAD4D /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		18D61BB225AD795C00EAAD4D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +85,13 @@
 			isa = PBXGroup;
 			children = (
 				187E343C2575078700427AF1 /* MemorizeGameApp.swift */,
+				18D61BA625AD763400EAAD4D /* HomeList.swift */,
 				187E343D2575078700427AF1 /* ContentView.swift */,
 				180526FE25947FA600AF2D7A /* Cardify.swift */,
 				18B89238257A0E5400D0763B /* Grid.swift */,
 				18B8923F257A1C0E00D0763B /* GridLayout.swift */,
 				187E345F25754A3100427AF1 /* GameModel.swift */,
+				18D61BB225AD795C00EAAD4D /* Theme.swift */,
 				1833782625933E5E007A2793 /* Pie.swift */,
 				18B8924C257A7F8500D0763B /* Array+Identifiable.swift */,
 				18B89255257CAF9200D0763B /* Array+Only.swift */,
@@ -219,8 +227,10 @@
 				187E344F2575078800427AF1 /* MemorizeGameApp.swift in Sources */,
 				1833782725933E5E007A2793 /* Pie.swift in Sources */,
 				180526FF25947FA600AF2D7A /* Cardify.swift in Sources */,
+				18D61BB325AD795C00EAAD4D /* Theme.swift in Sources */,
 				18B89240257A1C0E00D0763B /* GridLayout.swift in Sources */,
 				187E346025754A3100427AF1 /* GameModel.swift in Sources */,
+				18D61BA725AD763400EAAD4D /* HomeList.swift in Sources */,
 				18B89239257A0E5400D0763B /* Grid.swift in Sources */,
 				18B89256257CAF9200D0763B /* Array+Only.swift in Sources */,
 				18B8924D257A7F8500D0763B /* Array+Identifiable.swift in Sources */,
@@ -235,8 +245,10 @@
 				187E34502575078800427AF1 /* MemorizeGameApp.swift in Sources */,
 				1833782825933E5E007A2793 /* Pie.swift in Sources */,
 				1805270025947FA600AF2D7A /* Cardify.swift in Sources */,
+				18D61BB425AD795C00EAAD4D /* Theme.swift in Sources */,
 				18B89241257A1C0E00D0763B /* GridLayout.swift in Sources */,
 				187E346125754A3100427AF1 /* GameModel.swift in Sources */,
+				18D61BA825AD763400EAAD4D /* HomeList.swift in Sources */,
 				18B8923A257A0E5400D0763B /* Grid.swift in Sources */,
 				18B89257257CAF9200D0763B /* Array+Only.swift in Sources */,
 				18B8924E257A7F8500D0763B /* Array+Identifiable.swift in Sources */,

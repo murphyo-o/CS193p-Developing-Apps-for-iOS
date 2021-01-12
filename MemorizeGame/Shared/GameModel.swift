@@ -11,7 +11,7 @@ import SwiftUI
 struct GameModel<CardContent> where CardContent: Equatable {
     private(set) var cards: [Card]
     
-    var indexOfTheOneAndOnlyFacedUpCard: Int? { 
+    private var indexOfTheOneAndOnlyFacedUpCard: Int? {
         get {
             cards.indices.filter { cards[$0].isFaceUp }.only
         }
@@ -87,7 +87,7 @@ struct GameModel<CardContent> where CardContent: Equatable {
         }
         // whether we are currently face up, unmatched and have not yet used up the bonus window
         var isConusmingBonusTime: Bool {
-            isFaceUp && !isMatched && bonusTimeRemaining > 0
+            get { isFaceUp && !isMatched && bonusTimeRemaining > 0 }
         }
         
         // called when the card transitions to face up stats
@@ -110,12 +110,10 @@ struct GameModel<CardContent> where CardContent: Equatable {
                     cards[chooseIndex].isMatched = true
                     cards[potentialMatchIndex].isMatched = true
                 }
-//                indexOfTheOneAndOnlyFacedUpCard = nil
             } else {
                 for index in cards.indices {
                     cards[index].isFaceUp = false
                 }
-//                indexOfTheOneAndOnlyFacedUpCard = chooseIndex
             }
             
             cards[chooseIndex].isFaceUp = true
@@ -125,7 +123,7 @@ struct GameModel<CardContent> where CardContent: Equatable {
 
 class EmojiViewModel: ObservableObject {
     @Published private var model: GameModel<String> = EmojiViewModel.createGame()
-    
+        
     static func createGame() -> GameModel<String> {
         let emojis = ["👻", "🎃", "🎭", "🧸", "🐱", "🐶"]
         return GameModel<String>(numberOfPairsOfCards: emojis.count) { pairIndex in
@@ -147,5 +145,6 @@ class EmojiViewModel: ObservableObject {
         model = EmojiViewModel.createGame()
     }
 }
+
 
 
