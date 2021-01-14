@@ -4,10 +4,10 @@
 <br>
 
 ## Completion Status
-| __TYPE__ | __LECTURES__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
-|  :-: | :-: | :-: | :-: | :-: | 
-| __Memorize Game__ | 1-6 | 80% | - Shuffle the cards.☑️<br>- Arrange the cards in a grid view.☑️<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards.☑️ | |
-| __Set Game__ | | 0% | | |
+| __TYPE__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
+|  :-: | :-: | :-: | :-: | 
+| __Memorize Game__ | 80% | - Shuffle the cards.☑️<br>- Arrange the cards in a grid view.☑️<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards.☑️ | |
+| __Set Game__ | 40% | - Review the rules of the Game Set.☑️<br>- Make the game start animation flying effect.<br>- Make it a solo game ( one player ).☑️<br>- Grid view to arrange nicely and make cards stay the same aspect.☑️<br>- Support “deselection” by touching already-selected cards (but only if there are 1 or 2 cards (not 3) currently selected).<br>- Make the selection effect.☑️<br>- Be careful to test "end game".  | |
 <br>
 
 ## Catalog
