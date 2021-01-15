@@ -5,7 +5,7 @@
 
 ## Completion Status
 | __HOMEWORK__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
-|  :-: | :-: | :-: | :-: | 
+| :-: | :-: | :-: | :-: | 
 | __Memorize Game__ | 80% | - Shuffle the cards.☑️<br>- Arrange the cards in a grid view.☑️<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards.☑️ | |
 | __Set Game__ | 40% | - Review the rules of the Game Set.☑️<br>- Make the game start animation flying effect.<br>- Make it a solo game ( one player ).☑️<br>- To make the squiggle shape and striped pattern, and make them view modifiers.☑️<br>- Grid view to arrange nicely and make cards stay the same aspect.☑️<br>- Support “deselection” by touching already-selected cards (but only if there are 1 or 2 cards (not 3) currently selected).<br>- Make the selection effect.☑️<br>- Be careful to test "end game".<br>- To find out the sets.  | |
 <br>
@@ -16,11 +16,12 @@
 - `didSet` and `willSet`
 
     `didSet`  to execute code when a property has just been set.  `willSet`  to execute code before a property has been set.
+<br>
 
 
 ## Catalog
 | __Lecture__ | __Contents__ | __Videos__ | __Others__ |
-| :-- | :-- | :-- | :-- | 
+| :-: | :-: | :-: | :-: | 
 | __Lecture 1__ | __Course Logistics and Intro to SwiftUI__ | - [Intro](https://youtu.be/jbtqIBpUG7g) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf) |
 | __Lecture 2__ | __MVVM and the Swift Type System__ | - [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40) <br> - [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)<br>  - [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)<br> - [Generics](https://youtu.be/4GjXq2Sr55Q?t=1730)<br> - [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br> [Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)<br> [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf) |
 | __Lecture 3__ | __Reactive UI Protocols Layout__ | - [Protocols](https://youtu.be/SIYdYpPXil4?t=2065)<br> - [Protocols and Generics](https://youtu.be/SIYdYpPXil4?t=2694)<br> - [Layout](https://youtu.be/SIYdYpPXil4?t=3176)<br> - [GeometryReader](https://youtu.be/SIYdYpPXil4?t=4207) | [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf) |
@@ -35,6 +36,5 @@
 | __Lecture 12__ | __Core Data__ | - [Core Data Features](https://youtu.be/yOhyOpXvaec?t=265)<br>-   [SwiftUI Integration](https://youtu.be/yOhyOpXvaec?t=304)<br>-   [Read/Write data](https://youtu.be/yOhyOpXvaec?t=737)<br>-   [@FetchRequest](https://youtu.be/yOhyOpXvaec?t=1009)<br>-   [Build Objects Graph in Core Data](https://youtu.be/yOhyOpXvaec?t=1610)<br>-   [Fetch/Create Object](https://youtu.be/yOhyOpXvaec?t=2361)<br>-   [NSPredicate](https://youtu.be/yOhyOpXvaec?t=2442)<br>-   [NSSortDescriptor](https://youtu.be/yOhyOpXvaec?t=2521)<br>-   [Deal with NSSet of one to many relationship](https://youtu.be/yOhyOpXvaec?t=3255)<br>-   [Deal with non-optional value](https://youtu.be/yOhyOpXvaec?t=3499)<br>-   [@FetchRequest demo](https://youtu.be/yOhyOpXvaec?t=3762)<br>-   [Init @FetchRequest](https://youtu.be/yOhyOpXvaec?t=3926)<br>-   [TRUEPREDICATE](https://youtu.be/yOhyOpXvaec?t=4884)<br>-   [Crash Error: Context in environment is not connected to a persistent store coordinator](https://youtu.be/yOhyOpXvaec?t=5160)<br>-   [Build a programmatic NSPredicate](https://youtu.be/yOhyOpXvaec?t=5406)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l12.pdf) |
 | __Lecture 13__ | __Persistence__ |-   [Persistence Overview](https://youtu.be/fTNPRhGGP-0?t=112)<br>-   [Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=332)<br>-   [Create a record in Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=840)<br>-   [Query for records](https://youtu.be/fTNPRhGGP-0?t=1173)<br>-   [File System](https://youtu.be/fTNPRhGGP-0?t=1319)<br>-   [Sandbox](https://youtu.be/fTNPRhGGP-0?t=1452)<br>-   [File Manager](https://youtu.be/fTNPRhGGP-0?t=1610)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l13.pdf) |
 | __Lecture 14__ | __UIKit Integration__ | [Video](https://youtu.be/GRX5Dha_Clw)| [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l14.pdf) |
-<br>
 
 
