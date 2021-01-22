@@ -15,7 +15,7 @@ struct ShadePatternBuilder: ViewModifier {
             switch card.shading {
             case .solid:
                 ZStack {
-                    content.foregroundColor(card.color)
+                    content.foregroundColor(setColors(card.color))
                 }
             case .open:
                 content.opacity(0)
@@ -23,7 +23,7 @@ struct ShadePatternBuilder: ViewModifier {
                 ZStack {
                     content.opacity(0)
                     StripedPattern()
-                        .stroke(card.color, lineWidth: 2)
+                        .stroke(setColors(card.color), lineWidth: 2)
                         .mask(content)
                 }
             }

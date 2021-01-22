@@ -15,10 +15,10 @@ struct GameModel {
         var allCards: [SetCard] {
             var all = [SetCard]()
             
-            for numberOfShapes in 1...3 {
+            for numberOfShapes in SetNumbers.allCases {
                 for shape in Shapes.allCases {
                     for shading in Shadings.allCases {
-                        for color in [Color(#colorLiteral(red: 0.5607843137, green: 0.8274509804, blue: 0.9607843137, alpha: 1)), Color(#colorLiteral(red: 0.6235294118, green: 0.7960784314, blue: 0.337254902, alpha: 1)), Color(#colorLiteral(red: 0.9490196078, green: 0.7137254902, blue: 0.2196078431, alpha: 1))] {
+                        for color in SetColors.allCases {
                             all.append(SetCard(numberOfShapes: numberOfShapes, shape: shape, shading: shading, color: color))
                         }
                     }
@@ -28,29 +28,24 @@ struct GameModel {
         }
         
         cards = Array(allCards.choose(12))
-        
+
     }
         
-    struct SetCard: Identifiable {
-        var numberOfShapes: Int
+    struct SetCard: Identifiable, Hashable {
+        var numberOfShapes: SetNumbers
         var shape: Shapes
         var shading: Shadings
-        var color: Color
-        var isSelect = false
+        var color: SetColors
         
         var id = UUID()
-    }
-    
-    mutating func choose(card: SetCard) {
-        if let chooseIndex = cards.firstIndex(matching: card) {
-            cards[chooseIndex].isSelect.toggle()
-        }
     }
 }
 
 
 class ViewModel: ObservableObject {
     @Published private var model: GameModel = ViewModel.creatGame()
+    @Published var histories = [[GameModel.SetCard]]()
+    @Published var selections = [GameModel.SetCard]()
     
     static func creatGame() -> GameModel {
         GameModel()
@@ -60,11 +55,66 @@ class ViewModel: ObservableObject {
         model.cards
     }
     
+    var sets: Set<Set<GameModel.SetCard>> {
+        var all = Set<Set<GameModel.SetCard>>()
+        var tempSet = Set<GameModel.SetCard>()
+        var findOutSet = Set<Set<GameModel.SetCard>>()
+        
+        for a in cards {
+            for b in cards {
+                for c in cards {
+                    tempSet.insert(a)
+                    tempSet.insert(b)
+                    tempSet.insert(c)
+                    if tempSet.count == 3 {
+                        all.insert(tempSet)
+                    }
+                    tempSet = Set<GameModel.SetCard>()
+                }
+            }
+        }
+        
+        for sets in all {
+            let cards = Array(sets)
+            let a = (cards[0].numberOfShapes.rawValue+cards[1].numberOfShapes.rawValue+cards[2].numberOfShapes.rawValue) % 3 == 0
+            let b = (cards[0].shape.rawValue+cards[1].shape.rawValue+cards[2].shape.rawValue) % 3 == 0
+            let c = (cards[0].shading.rawValue+cards[1].shading.rawValue+cards[2].shading.rawValue) % 3 == 0
+            let d = (cards[0].color.rawValue+cards[1].color.rawValue+cards[2].color.rawValue) % 3 == 0
+            if a && b && c && d {
+                findOutSet.insert(sets)
+            }
+        }
+        
+        return findOutSet
+    }
+    
+    func clearSelections() {
+        
+    }
+    
     func choose(card: GameModel.SetCard) {
-        model.choose(card: card)
+        if selections.count < 3 && !selections.contains(card) {
+            selections.append(card)
+            if selections.count == 3 {
+                if sets.contains(Set(selections)) {
+                    histories.append(selections)
+                }
+                selections = []
+            }
+        } else if selections.contains(card) {
+            let index = selections.firstIndex(matching: card)
+
+            if let index = index {
+                selections.remove(at: index)
+            }
+        }
     }
     
     func resetGame() {
-        model = ViewModel.creatGame()
+        repeat {
+            model = ViewModel.creatGame()
+        } while sets.isEmpty
+        selections = []
+        histories = []
     }
 }

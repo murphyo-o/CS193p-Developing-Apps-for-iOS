@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Shapes: CaseIterable {
+enum Shapes: Int, CaseIterable {
     case diamondShape
     case squiggleShape
     case ovalShape
@@ -117,5 +117,7 @@ struct OvalShape: Shape {
 struct Shapes_Previews: PreviewProvider {
     static var previews: some View {
         OvalShape()
+        SquiggleShape()
+        DiamondShape()
     }
 }
