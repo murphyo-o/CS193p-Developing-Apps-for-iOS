@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Cardify: ViewModifier {
     var card: GameModel.SetCard
+    var lineWidth: CGFloat
     
     func body(content: Content) -> some View {
         ZStack {
@@ -20,18 +21,18 @@ struct Cardify: ViewModifier {
                         switch card.shape {
                         case .diamondShape:
                             return AnyView(ZStack {
-                                DiamondShape().shading(card: card)
-                                DiamondShape().stroke(setColors(card.color), lineWidth: 3)
+                                DiamondShape().shading(card: card, lineWidth: lineWidth*0.6)
+                                DiamondShape().stroke(setColors(card.color), lineWidth: lineWidth)
                             })
                         case .squiggleShape:
                             return AnyView(ZStack {
-                                SquiggleShape().shading(card: card)
-                                SquiggleShape().stroke(setColors(card.color), lineWidth: 3)
+                                SquiggleShape().shading(card: card, lineWidth: lineWidth*0.6)
+                                SquiggleShape().stroke(setColors(card.color), lineWidth: lineWidth)
                             })
                         case .ovalShape:
                             return AnyView(ZStack {
-                                OvalShape().shading(card: card)
-                                OvalShape().stroke(setColors(card.color), lineWidth: 3)
+                                OvalShape().shading(card: card, lineWidth: lineWidth*0.6)
+                                OvalShape().stroke(setColors(card.color), lineWidth: lineWidth)
                             })
                         }
                     }.frame(maxWidth: (geo.size.width-30)/3)
@@ -45,12 +46,12 @@ struct Cardify: ViewModifier {
 
 
 extension View {
-    func cardify(card: GameModel.SetCard) -> some View {
-        self.modifier(Cardify(card: card))
+    func cardify(card: GameModel.SetCard, lineWidth: CGFloat) -> some View {
+        self.modifier(Cardify(card: card, lineWidth: lineWidth))
     }
     
-    func shading(card: GameModel.SetCard) -> some View {
-        self.modifier(ShadePatternBuilder(card: card))
+    func shading(card: GameModel.SetCard, lineWidth: CGFloat) -> some View {
+        self.modifier(ShadePatternBuilder(card: card, lineWidth: lineWidth))
     }
 }
 

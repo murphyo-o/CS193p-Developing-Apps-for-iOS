@@ -16,9 +16,9 @@ struct HistoryView: View {
                 ForEach(set) { card in
                     Circle()
                         .stroke(Color.black.opacity(0.2), lineWidth: 2)
-                        .cardify(card: card)
+                        .cardify(card: card, lineWidth: 1)
                 }
-                .frame(width: geo.size.height/3.5, height: geo.size.height/3.5)
+                .frame(width: geo.size.height/3.3, height: geo.size.height/3.3)
             }
             .frame(width: geo.size.width, height: geo.size.height)
         }
@@ -28,8 +28,8 @@ struct HistoryView: View {
 struct HistoryView_Previews: PreviewProvider {
     static var previews: some View {
         let set = [
-            GameModel.SetCard(numberOfShapes: .one, shape: .diamondShape, shading: .open, color: .lightGreen),
-            GameModel.SetCard(numberOfShapes: .one, shape: .diamondShape, shading: .open, color: .lightGreen),
+            GameModel.SetCard(numberOfShapes: .one, shape: .ovalShape, shading: .open, color: .lightGreen),
+            GameModel.SetCard(numberOfShapes: .one, shape: .squiggleShape, shading: .open, color: .lightGreen),
             GameModel.SetCard(numberOfShapes: .three, shape: .diamondShape, shading: .open, color: .lightGreen)
         ]
         return HStack(alignment: .center, spacing: 0) {

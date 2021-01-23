@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ShadePatternBuilder: ViewModifier {
     var card: GameModel.SetCard
+    var lineWidth: CGFloat
     
     func body(content: Content) -> some View {
         Group {
@@ -23,7 +24,7 @@ struct ShadePatternBuilder: ViewModifier {
                 ZStack {
                     content.opacity(0)
                     StripedPattern()
-                        .stroke(setColors(card.color), lineWidth: 2)
+                        .stroke(setColors(card.color), lineWidth: lineWidth)
                         .mask(content)
                 }
             }
@@ -33,20 +34,20 @@ struct ShadePatternBuilder: ViewModifier {
 
 struct StripedPattern: Shape {
     // MARK: - Drawing Constrains
-    var stripedWidth: Int = 4
+    var stripedWidth: CGFloat = 3
     var interval: Int = 2
     
     func path(in rect: CGRect) -> Path {
-        let numberOfStriped = Int(rect.width) / stripedWidth
+        let numberOfStriped = Int(rect.width / stripedWidth)
         
         var p = Path()
         p.move(to: rect.origin)
         
         for i in 0...numberOfStriped {
             if i % interval == 0 {
-                p.addRect(CGRect(x: CGFloat(i * stripedWidth),
+                p.addRect(CGRect(x: CGFloat(i) * stripedWidth,
                                  y: 0,
-                                 width: CGFloat(stripedWidth),
+                                 width: stripedWidth,
                                  height: rect.height))
             }
         }

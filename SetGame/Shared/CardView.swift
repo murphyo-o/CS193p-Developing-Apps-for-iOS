@@ -25,7 +25,7 @@ struct CardView: View {
         ZStack {
             RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
                 .stroke(Color.black.opacity(0.3), style: StrokeStyle(lineWidth: edgeLineWidth))
-                .cardify(card: card)
+                .cardify(card: card, lineWidth: edgeLineWidth)
             
             if isSelect {
                 RoundedRectangle(cornerRadius: 15.0)

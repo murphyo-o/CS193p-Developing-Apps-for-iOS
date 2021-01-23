@@ -9,6 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewModel = ViewModel()
+    @State var showingAlert = false
+    @State var activeAlert: ActiveAlert = .wrongSet
+    
+    enum ActiveAlert {
+        case wrongSet, endGame
+    }
+    
+    let title = "Important Message"
+    let failMessage = "Oops! It's wrong."
+    let endGameMessage = "Congratulations! You've found out all the sets."
     
     var body: some View {
         VStack(spacing: 8.0) {
@@ -17,9 +27,28 @@ struct ContentView: View {
                     .padding(3)
                     .onTapGesture {
                         viewModel.choose(card: card)
+                        if viewModel.selections.count == 3 {
+                            if !viewModel.sets.contains(Set(viewModel.selections)) {
+                                showingAlert = true
+                                activeAlert = .wrongSet
+                            }
+                            if viewModel.histories.count == viewModel.sets.count {
+                                showingAlert = true
+                                activeAlert = .endGame
+                            }
+                            viewModel.selections = []
+                        }
                     }
             }
             .frame(height: UIScreen.main.bounds.width*1.4)
+            .alert(isPresented: $showingAlert) {
+                switch activeAlert {
+                case .wrongSet:
+                    return Alert(title: Text(title), message: Text(failMessage), dismissButton: .default(Text("OK")))
+                case .endGame:
+                    return Alert(title: Text(title), message: Text(endGameMessage), primaryButton: .default(Text("OK")), secondaryButton: .default(Text("New Game"), action: viewModel.resetGame))
+                }
+            }
             
             Text("To find out \(viewModel.sets.count) sets. \(viewModel.histories.count != 0 ? "You've found \(viewModel.histories.count) sets." : "")")
                 .font(.headline)

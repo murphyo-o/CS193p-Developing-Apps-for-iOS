@@ -99,7 +99,6 @@ class ViewModel: ObservableObject {
                 if sets.contains(Set(selections)) {
                     histories.append(selections)
                 }
-                selections = []
             }
         } else if selections.contains(card) {
             let index = selections.firstIndex(matching: card)
