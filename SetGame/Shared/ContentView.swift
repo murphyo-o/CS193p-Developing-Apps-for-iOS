@@ -13,11 +13,11 @@ struct ContentView: View {
     @State var activeAlert: ActiveAlert = .wrongSet
     
     enum ActiveAlert {
-        case wrongSet, endGame
+        case wrongSet, duplicatedWrong, endGame
     }
     
-    let title = "Important Message"
     let failMessage = "Oops! It's wrong."
+    let duplicateMessage = "Oops! You've found the same set again."
     let endGameMessage = "Congratulations! You've found out all the sets."
     
     var body: some View {
@@ -28,14 +28,22 @@ struct ContentView: View {
                     .onTapGesture {
                         viewModel.choose(card: card)
                         if viewModel.selections.count == 3 {
-                            if !viewModel.sets.contains(Set(viewModel.selections)) {
+                            if viewModel.sets.contains(viewModel.selections) {
+                                if !viewModel.histories.contains(viewModel.selections)  {
+                                    viewModel.histories.append(viewModel.selections)
+                                    if viewModel.histories.count == viewModel.sets.count {
+                                        showingAlert = true
+                                        activeAlert = .endGame
+                                    }
+                                } else {
+                                    showingAlert = true
+                                    activeAlert = .duplicatedWrong
+                                }
+                            } else {
                                 showingAlert = true
                                 activeAlert = .wrongSet
                             }
-                            if viewModel.histories.count == viewModel.sets.count {
-                                showingAlert = true
-                                activeAlert = .endGame
-                            }
+                            
                             viewModel.selections = []
                         }
                     }
@@ -44,9 +52,11 @@ struct ContentView: View {
             .alert(isPresented: $showingAlert) {
                 switch activeAlert {
                 case .wrongSet:
-                    return Alert(title: Text(title), message: Text(failMessage), dismissButton: .default(Text("OK")))
+                    return Alert(title: Text(failMessage), dismissButton: .default(Text("OK")))
+                case .duplicatedWrong:
+                    return Alert(title: Text(duplicateMessage), dismissButton: .default(Text("OK")))
                 case .endGame:
-                    return Alert(title: Text(title), message: Text(endGameMessage), primaryButton: .default(Text("OK")), secondaryButton: .default(Text("New Game"), action: viewModel.resetGame))
+                    return Alert(title: Text(endGameMessage), primaryButton: .default(Text("OK")), secondaryButton: .default(Text("New Game"), action: viewModel.resetGame))
                 }
             }
             

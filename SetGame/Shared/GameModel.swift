@@ -44,8 +44,8 @@ struct GameModel {
 
 class ViewModel: ObservableObject {
     @Published private var model: GameModel = ViewModel.creatGame()
-    @Published var histories = [[GameModel.SetCard]]()
-    @Published var selections = [GameModel.SetCard]()
+    @Published var histories = [Set<GameModel.SetCard>]()
+    @Published var selections = Set<GameModel.SetCard>()
     
     static func creatGame() -> GameModel {
         GameModel()
@@ -88,24 +88,11 @@ class ViewModel: ObservableObject {
         return findOutSet
     }
     
-    func clearSelections() {
-        
-    }
-    
     func choose(card: GameModel.SetCard) {
         if selections.count < 3 && !selections.contains(card) {
-            selections.append(card)
-            if selections.count == 3 {
-                if sets.contains(Set(selections)) {
-                    histories.append(selections)
-                }
-            }
+            selections.insert(card)
         } else if selections.contains(card) {
-            let index = selections.firstIndex(matching: card)
-
-            if let index = index {
-                selections.remove(at: index)
-            }
+            selections.remove(card)
         }
     }
     
