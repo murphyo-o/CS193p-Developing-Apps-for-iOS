@@ -7,7 +7,7 @@
 | __HOMEWORK__ | __COMPLETION__ | __TASKS__ | __DISPLAYS__ |
 | :-: | :-: | :-: | :-: | 
 | __Memorize Game__ | 40% | - Shuffle the cards.☑️<br>- Arrange the cards in a grid view.☑️<br>- UI should be work in portrait or landscape on any iOS device.<br>- Support at least 6 different themes in the game. Example themes: animals, sports, faces.<br>- Count the scores.<br>- To animate the time counter pie in the cards.☑️ | |
-| __Set Game__ | 95% | - Review the rules of the Game Set.☑️<br>- Make it a solo game ( one player ).☑️<br>- To make the squiggle shape and striped pattern, and make them view modifiers.☑️<br>- Grid view to arrange nicely and make cards stay the same aspect.☑️<br>- Support “deselection” by touching already-selected cards (but only if there are 1 or 2 cards (not 3) currently selected).☑️<br>- Make the selection effect.☑️<br>- Be careful to test "end game".☑️<br>- To find out the sets.☑️<br>- Mark down the right set histories.☑️<br>- Make the game start animation flying effect.<br>- Make it suit for landscape view too.  | ![Display](./documents/setgamepreview.gif) |
+| __Set Game__ | 95% | - Review the rules of the Game Set.☑️<br>- Make it a solo game ( one player ).☑️<br>- To make the squiggle shape and striped pattern, and make them view modifiers.☑️<br>- Grid view to arrange nicely and make cards stay the same aspect.☑️<br>- Support “deselection” by touching already-selected cards (but only if there are 1 or 2 cards (not 3) currently selected).☑️<br>- Make the selection effect.☑️<br>- Be careful to test "end game".☑️<br>- To find out the sets.☑️<br>- Mark down the right set histories.☑️<br>- Make the game start animation flying effect.<br>- Make it suit for landscape view too.  | ![Display](./Documents/setgamepreview.gif) |
 <br>
 
 
